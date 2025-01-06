@@ -20,8 +20,8 @@ global.THUMB_IMAGE =
 	'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png';
 
 module.exports = {
-	botname: process.env.BOT_NAME || '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨',
-	ownername: process.env.OWNER_NAME || 'SamPandey001',
+	botname: process.env.BOT_NAME || 'DEW Bot',
+	ownername: process.env.OWNER_NAME || 'Hansa Dewmina',
 	OWNER_NUMBER: process.env.OWNER_NUMBER || '94701515609',
 	sessionName: process.env.SESSION_ID || 'Secktor;;;UFVpckozaHM=',
 	author: (process.env.PACK_INFO?.split(';') || [])[0] || 'SamPandey001',
