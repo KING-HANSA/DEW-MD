@@ -1,6 +1,6 @@
-FROM quay.io/sampandey001/secktor-md:latest
-RUN git clone https://github.com/SamPandey001/Secktor-Md /root/SamPandey001
-WORKDIR /root/SamPandey001/
+FROM quay.io/DEW-MD-BOT/DEW-MD:latest
+RUN git clone https://github.com/KING-HANSA/DEW-MD /root/DEW-MD-BOT
+WORKDIR /root/DEW-MD-BOT/
 RUN npm install npm@latest
 RUN npm install
 EXPOSE 8000
