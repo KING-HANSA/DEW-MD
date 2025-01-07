@@ -1,5 +1,5 @@
 while true
 do
-echo "[SECKTOR]:Restarting Secktor......"
+echo "[DEW-BOT]:Restarting Dew-MD......"
 node lib/client.js
 done
