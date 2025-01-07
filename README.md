@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://chat.whatsapp.com/DG86OkvmerHKHJjkE5X2Wv">
-    <img src="https://raw.githubusercontent.com/SecktorBot/Brandimages/8075d6f814c48414dd03688a35f4bfd80fb6e603/logos/SocialLogo%201.svg" alt="Secktor MD" height="300">
+    <img src="https://raw.githubusercontent.com/KING-HANSA/DEW-MD/refs/heads/main/lib/assets/Dew%20Bot%20Logo.jpg" alt="Secktor MD" height="300">
   </a>
 </p>
 
