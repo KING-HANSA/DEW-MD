@@ -49,7 +49,7 @@ module.exports = {
 		APP_NAME: process.env.HEROKU_APP_NAME || '',
 	},
 	VERSION: process.env.VERSION || 'v.0.0.8',
-	LANG: process.env.THEME || 'SECKTOR',
+	LANG: process.env.THEME || 'DEW',
 	WORKTYPE: process.env.WORKTYPE || 'public',
 };
 
