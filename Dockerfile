@@ -1,9 +1,4 @@
-FROM node:lts-buster
-
-RUN apt-get update && \
-    apt-get install -y ffmpeg webp git && \
-    apt-get upgrade -y && \
-    rm -rf /var/lib/apt/lists/*
+FROM quay.io/sampandey001/secktor-md:latest
 
 RUN git clone https://github.com/KING-HANSA/DEW-MD
 
