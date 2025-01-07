@@ -9,7 +9,7 @@
 		"start": "bash start.sh",
 		"stop": ""
 	},
-	"author": "SamPandey001",
+	"author": "HansaDewmina",
 	"dependencies": {
 		"@whiskeysockets/baileys": "github:sampandey001/baileys01",
 		"awesome-phonenumber": "^3.3.0",
