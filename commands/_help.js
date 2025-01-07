@@ -1,14 +1,3 @@
-/**
- Copyright (C) 2022.
- Licensed under the  GPL-3.0 License;
- You may not use this file except in compliance with the License.
- It is supplied in the hope that it may be useful.
- * @project_name : Secktor-Md
- * @author : @BK9dev <https://bk9.fun/>
- * @description : Secktor,A Multi-functional whatsapp bot.
- **/
-
-
 const os = require('os')
 const moment = require("moment-timezone")
 const fs = require("fs")
@@ -83,7 +72,7 @@ Secktor.cmd({
                    }
   
                 }
-                str+= `*⭐️Type:* _${prefix}help cmd_ name to know more about specific command.\n*Eg:* _${prefix}help attp_\n*Made with ❤️ in Nodejs* `
+                str+= `*⭐️Type:* _${prefix}help cmd_ name to know more about specific command.\n*Eg:* _${prefix}help attp_\n*Made with ❤️ Dewmina* `
                 let buttonMessaged = {
                     image: { url: await botpic() },
                     caption: str
