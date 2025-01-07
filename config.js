@@ -11,10 +11,10 @@ global.port = process.env.PORT || 5000;
 global.email = 'sam@secktor.live';
 global.github = 'https://github.com/KING-HANSA/DEW-MD';
 global.location = 'Sultanpur IN';
-global.gurl = 'https://instagram.com/'; // add your username
+global.gurl = 'https://instagram.com/hansa_dewmina_lk'; // add your username
 global.sudo = process.env.SUDO || '94701515609';
 global.devs = '94701515609';
-global.website = 'https://github.com/SamPandey001/Secktor-Md';
+global.website = 'https://github.com/KING-HANSA/DEW-MD';
 global.THUMB_IMAGE =
 	process.env.THUMB_IMAGE ||
 	'https://i.imgur.com/JL9z4b0.jpeg';
