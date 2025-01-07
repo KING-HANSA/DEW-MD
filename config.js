@@ -17,7 +17,7 @@ global.devs = '94701515609';
 global.website = 'https://github.com/SamPandey001/Secktor-Md';
 global.THUMB_IMAGE =
 	process.env.THUMB_IMAGE ||
-	'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png';
+	'https://raw.githubusercontent.com/KING-HANSA/DEW-MD/refs/heads/main/lib/assets/Dew%20Bot%20Logo.jpg';
 
 module.exports = {
 	botname: process.env.BOT_NAME || 'DEW Bot',
