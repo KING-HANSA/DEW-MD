@@ -1,7 +1,16 @@
-FROM quay.io/sampandey001/secktor-md:latest
-RUN git clone https://github.com/KING-HANSA/DEW-MD /root/KING-HANSA
-WORKDIR /root/KING-HANSA/
-RUN npm install npm@latest
-RUN npm install
-EXPOSE 8000
-CMD ["bash", "start.sh"]
+FROM node:lts-buster
+
+RUN apt-get update && \
+    apt-get install -y ffmpeg webp git && \
+    apt-get upgrade -y && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN git clone https://github.com/KING-HANSA/DEW-MD
+
+WORKDIR /DEW-MD
+
+RUN yarn install --production
+
+RUN yarn global add pm2
+
+CMD ["npm", "start"]
