@@ -1,8 +1,8 @@
 FROM quay.io/sampandey001/secktor-md:latest
 
-RUN git clone https://github.com/KING-HANSA/DEW-MD
+RUN git clone https://github.com/KING-HANSA/DEW-MD /root/SamPandey001
 
-WORKDIR /DEW-MD
+WORKDIR /root/SamPandey001/
 
 RUN yarn install --production
 
