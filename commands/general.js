@@ -133,7 +133,7 @@
    if (!isCreator) {
      return citel.reply(tlang().owner);
    }
-   let str = "*All available themes in Secktor*\n";
+   let str = "*All available themes in Dew-MD*\n";
    str += `DEW Theme Only`;
    return citel.reply(str);
  });
