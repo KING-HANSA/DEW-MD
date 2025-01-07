@@ -127,7 +127,7 @@
     citel.reply(`*Check your Pm ${tlang().greet}*`);
     await Void.sendMessage(`${citel.sender}`, {
       image: log0,
-      caption: `*Group Name: Secktor-Support*\n*Group Link:* https://chat.whatsapp.com/Bl2F9UTVU4CBfZU6eVnrbC`
+      caption: `*Group Name: Dew-Support*\n*Group Link:* https://chat.whatsapp.com/Kd7rTyr3xe52gBQC0bPE9V`
     });
   });
   
