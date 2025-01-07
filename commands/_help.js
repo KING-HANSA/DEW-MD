@@ -72,7 +72,7 @@ Secktor.cmd({
                    }
   
                 }
-                str+= `*⭐️Type:* _${prefix}help cmd_ name to know more about specific command.\n*Eg:* _${prefix}help attp_\n*Made with ❤️ Dewmina* `
+                str+= `*DEW - MD*\n*BY Hansa*\n*Made with ❤️ Dewmina-LK* `
                 let buttonMessaged = {
                     image: { url: await botpic() },
                     caption: str
