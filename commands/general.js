@@ -7,7 +7,7 @@
    alias: ["gpt"],
    desc: "chat with an AI(GPT)",
    category: "AI",
-   use: "<Hii,Secktor>",
+   use: "<Hii,Dewmina>",
    filename: __filename
  }, async (Void, citel, text) => {
    if (!text) {
@@ -134,7 +134,7 @@
      return citel.reply(tlang().owner);
    }
    let str = "*All available themes in Secktor*\n";
-   str += `1. SECKTOR\n2. ADAM\n3. AYANOKOJI\n4. EDITH\n5. FRIDAY\n6. GENOS\n7. GIDEON\n8. GOKU\n9. LUFFY\n10. NARUTO\n11. NEZUKO\n12. PARKER\n13. ZEROTWO\n14. Eren Jeager(Coming Soon)\n\nReply ${prefix}setvar THEME:ZEROTWO`;
+   str += `DEW Theme Only`;
    return citel.reply(str);
  });
  
