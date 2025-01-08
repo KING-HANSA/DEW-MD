@@ -27,7 +27,7 @@
 		"pastebin-js": "^1.0.6",
 		"koyeb-api-client": "latest",
 		"dotenv": "^16.0.0",
-		"mongoose": "^6.2.1",
+		"mongoose": "^8.9.3",
 		"file-type": "^16.5.3",
 		"form-data": "^4.0.0",
 		"fluent-ffmpeg": "^2.1.2",
