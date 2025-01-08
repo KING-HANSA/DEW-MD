@@ -23,7 +23,7 @@ module.exports = {
 	botname: process.env.BOT_NAME || 'DEW Bot',
 	ownername: process.env.OWNER_NAME || 'Hansa Dewmina',
 	OWNER_NUMBER: process.env.OWNER_NUMBER || '94701515609',
-	sessionName: process.env.SESSION_ID || 'Secktor;;;SEFqVDN1WG4=',
+	sessionName: process.env.SESSION_ID || 'Secktor;;;S3VYemY3VlM=',
 	author: (process.env.PACK_INFO?.split(';') || [])[0] || 'Hansa Dewmina',
 	auto_read_status: process.env.AUTO_READ_STATUS || true,
 	packname: (process.env.PACK_INFO?.split(';') || [])[1] || 'Dew-MD',
